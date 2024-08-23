@@ -1,3 +1,7 @@
+## ###################################################################################################
+### Este programa O mesmo tem como entrada a planilha fonte dados.xlsx. E através da 1o columa (S/N) 
+### é separada as informações , em duas abas ,  Equipamentos e Não Equipamentos.
+## ###################################################################################################
 from openpyxl import load_workbook
 ### aba fonte
 ### aba cadastro_nequipto
