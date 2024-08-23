@@ -10,6 +10,8 @@ arquivo = load_workbook(r"fonte_dados.xlsx")
 
 def transferir_dados_aba_destino(aba_origem,aba_destino,linha_origem):
     linha_destino = aba_destino.max_row + 1
+    ### Teste para o Branch , simulado de CriarBotao
+
     ## for x in (1,13):
     celula_origem = aba_origem.cell(row=linha_origem,column=1)
     celula_destino = aba_destino.cell(row=linha_destino,column=1)
